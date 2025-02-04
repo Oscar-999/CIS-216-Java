@@ -1,6 +1,7 @@
 package edu.jjc.week3.lab02;
 //Oscar Alcantar - Lab2
 //Driver class  - Calls the class car from the car.java file
+//Description
 import java.util.Scanner;
 
 public class Driver {
