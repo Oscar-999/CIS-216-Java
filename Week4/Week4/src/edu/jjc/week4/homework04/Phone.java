@@ -1,13 +1,18 @@
 package edu.jjc.week4.homework04;
-
+//Oscar Alcantar
+//Homework Week 4
+//Description : The JJC Phone Store needs a program to compute phone charges for some phones sold in the
+//store. There are two different pricing systems, depending on the phone purchased. Tax must be
+//added on after the phone charge is computed. Each customer gets a neatly formatted receipt
+//displayed to the screen
 public class Phone {
-    public Phone(int phonePrice, boolean isIphone, int yearsApplecare) {
+    public Phone(double phonePrice, boolean isIphone, int yearsApplecare) {
         this.phonePrice = phonePrice;
         this.isIphone = isIphone;
         this.yearsApplecare = yearsApplecare;
     };
     //Getters and Setters
-    public int getPhonePrice() {
+    public double getPhonePrice() {
         return phonePrice;
     }
 
@@ -46,7 +51,7 @@ public class Phone {
 
     };
 
-    private int phonePrice;
+    private double phonePrice;
     private boolean isIphone;
     private int yearsApplecare;
 
