@@ -23,7 +23,8 @@ public class Spaceship {
 
     @Override
     public String toString() {
-        return String.format("ID: %d | Location: (%d, %d)", id, xCoordinate, yCoordinate);
+        // Will allow for proper alignment add  space after id
+        return String.format("ID: %-3d | Coordinates: (%d, %d)", id, xCoordinate, yCoordinate);
     }
 
 }
